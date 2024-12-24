@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Ilya Minin">
+    <link rel="stylesheet" href="source/css/style.css">
+    <link rel="stylesheet" href="source/css/test.css">
+    <title>Тест</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="header-left">
+                <p>Minecraft</p>
+            </div>
+            <div class="header-right">
+                <a href="index.html">Описание</a>
+                <a href="Slovar.html">Словрь</a>
+                <a href="test.html" class="active">Тест</a>
+                <a href="gallery.html">Галерея</a>
+                <a href="profile.html" id="username">Личный кабинет</a>
+                <div class="logout-section" id="logout-section">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1 class="top-pagename">Тест</h1>
+        <section class="central-content">
+            <h2>Тест по Minecraft</h2>
+
+            <form id="quizForm" name="quizForm" novalidate>
+                <fieldset>
+                    <label for="q1">1. Как зовут главного персонажа, которым управляет игрок?</label>
+                    <input type="text" id="q1" name="q1">
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <label for="q2">2. Как нызывается главный босс?</label>
+                    <input type="text" id="q2" name="q2">
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>3. с помощью чего можно срубить дерево?</legend>
+                    <label><input type="radio" name="q3" value="Топор"> Топор</label>
+                    <label><input type="radio" name="q3" value="Меч"> Меч</label>
+                    <label><input type="radio" name="q3" value="Кирка"> Кирка</label>
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>4. Как называется основное оружие главного героя?</legend>
+                    <label><input type="radio" name="q4" value="Меч"> Меч</label>
+                    <label><input type="radio" name="q4" value="Кинжал"> Кинжал</label>
+                    <label><input type="radio" name="q4" value="Мотыга"> Мотыга</label>
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>5. Сколько биомов в майнкрафт?</legend>
+                    <label><input type="radio" name="q5" value="3"> 3</label>
+                    <label><input type="radio" name="q5" value="5"> 5</label>
+                    <label><input type="radio" name="q5" value="7"> 7</label>
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <fieldset>
+                    <legend>6. Песронажу нужно?</legend>
+                    <label><input type="radio" name="q6" value="Еда"> еда</label>
+                    <label><input type="radio" name="q6" value="Еда1"> еда и вода</label>
+                    <label><input type="radio" name="q6" value="Вода"> вода</label>
+                    <span class="error-message"></span>
+                    <span class="success-message"></span>
+                </fieldset>
+
+                <div class="result-section">
+                    <span id="test-result"></span>
+                </div>
+
+                <button type="submit" id="submit-button">Ответить</button>
+            </form>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="socials-container">
+            <div class="contact-info">
+                               <p>&copy; 2024 Конради Денис Олегович. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="source/js/script.js"></script>
+    <script src="source/js/test.js"></script>
+</body>
+
+</html>

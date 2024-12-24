@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Ilya Minin">
+    <link rel="stylesheet" href="source/css/style.css">
+    <link rel="stylesheet" href="source/css/gallery.css">
+    <title>Галерея</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-nav">
+            <div class="header-left">
+                <p>Minecraft</p>
+            </div>
+            <div class="header-right">
+                <a href="index.html">Описание</a>
+                <a href="Slovar.html">Словарь</a>
+                <a href="test.html">Тест</a>
+                <a href="gallery.html" class="active">Галерея</a>
+                <a href="profile.html" id="username">Личный кабинет</a>
+                <div class="logout-section" id="logout-section">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1 class="top-pagename">Галерея</h1>
+        <section class="central-content">
+            <div class="slider-container">
+                <div class="slide active-slide">
+                    <img src="source/images/index/minecraft.jpg" alt="">
+                    <p>Minecraft</p>
+                </div>
+                <div class="slide">
+                    <img src="source/images/index/item.jpg" alt="City_of_Tears">
+                    <p>Minecraft Предметы </p>
+                </div>
+                <div class="slide">
+                    <img src="source/images/index/land.png" alt="colosseum.jpg">
+                    <p>пустыня</p>
+                </div>
+                <div class="slide">
+                    <img src="source/images/index/Mob.jpg" alt="Crossroads_Entrance">
+                    <p>Мобы</p>
+                </div>
+                <div class="slide">
+                    <img src="source/images/index/land1.jpg" alt="dirtmouth.jpg">
+                    <p>Постройки</p>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="slider-controls">
+                    <button id="prevSlide">❮</button>
+                    <button id="nextSlide">❯</button>
+                </div>
+                <div class="slider-info" id="infoText">
+                    1 из 3
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="socials-container">
+            <div class="contact-info">
+                <p>&copy; 2024 Конради Денис Олегович. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="source/js/script.js"></script>
+    <script src="source/js/gallery.js"></script>
+</body>
+
+</html>
